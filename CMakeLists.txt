@@ -9,7 +9,6 @@ include(CPack)
 
 include_directories(class_lib)
 
-add_subdirectory(test)
 add_subdirectory(third-party/googletest)
 
 find_package(Qt5 REQUIRED COMPONENTS Core)
@@ -18,4 +17,5 @@ find_package(Qt5 REQUIRED COMPONENTS Core)
 add_executable(main main.cpp)
 target_link_libraries(main Qt5::Core)
 
+add_subdirectory(test)
 #target_link_libraries(main Duck)
