@@ -9,5 +9,5 @@ enable_testing()
 
 add_executable(testion tests.cpp)
 
-target_link_libraries(testion State gtest gmock Qt5::Core)
+target_link_libraries(testion gtest gmock Qt5::Core)
 
