@@ -2,6 +2,7 @@
 #include "Duck.h"
 #include "FlyBehavior.h"
 #include "QuackBehavior.h"
+#include <gmock/gmock.h>
 
 class MockFlyBehavior : public FlyBehavior {
 public:
